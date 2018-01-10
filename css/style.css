@@ -1,0 +1,205 @@
+
+@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed');
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+
+/* bk,jpg from */
+body{
+  font-family: 'Barlow Condensed';
+  background-color: black;
+  font-size: 30px;
+/*  padding: 5px 25px;*/
+  font-size: 25px;
+  margin: 0;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  line-height: 100%;
+  background-image: url("bk.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+p{10px;
+}
+
+.cover{
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#intro{
+  background-image: url("../img/home-bk.jpg");
+}
+
+#terms{
+  background-image: url("../img/home-bk.jpg");
+}
+
+nav {
+  margin: 80px;
+}
+
+ul {
+  overflow;
+  list-style-type: none;
+}
+
+li {
+  height: 10px;
+  float: left;
+  margin-right: 1;
+  border-right: 2px solid 
+    #aaa;
+  padding:  20px;
+
+}
+
+li a {
+  text-decoration; text-underline-position: auto
+    color; 
+  font: 25px 'Barlow Condensed text-transform: lowercase;
+
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease ;
+
+}
+
+li a {
+  font-weight: bold;
+  color: white;
+  
+}
+
+li a:hover {
+  color: skyblue;
+  animation-delay: 
+}
+
+
+table, th, td {
+  border: 50px solid black;
+  padding: 3px;
+  border-style: solid;
+  background-color: darkred;
+  border-spacing: inherit;
+  border-left-style:inset;
+  border-right-style: inset;
+  
+}
+
+img{ 
+  width: 20%;
+  height: 40%; 
+} 
+
+.w-5{
+  width: 80vw;
+
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+section#team{
+  background-color: #333;
+}
+
+.team{
+  height: 150vh;
+  text-align: center;
+  background: no-repeat center center;
+  background-size: cover;
+  background-image: url("");
+}
+
+.team-1{
+  background-image: url("../img/team-1.jpg");
+}
+
+.team-2{
+  background-image: url("../img/team-2.jpg");
+}
+
+.team-3{
+  background-image: url("../img/team-3.jpg");
+}
+
+.team .content{
+  color: #fff;
+  height: 1%;
+  visibility: hidden;
+  background: rgba(0,0,0,0.5);
+  padding: 10%;
+}
+
+.content h1{
+  font-size: 3em;
+}
+
+.team:hover .content{
+  visibility: visible;
+}
+
+#jobs tr th h2{
+  font-weight: bolder;
+}
+
+/* For mobile phones: */
+@media only screen and (max-width: 30em) {
+  .row{
+    flex-wrap: wrap;
+    width: 100px;
+  }
+ 
+  footer{
+    color: whitesmoke;
+    text-align: center;
+    justify-content: center;
+  }
+  
+    
+  .row{
+    display: flex;
+    flex-direction: row;
+    
+  }
+  
+  .col{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+    
+  
+    
+  
+
+    
+  
+  
+
+        
+    
