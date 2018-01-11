@@ -1,0 +1,10 @@
+<div class="row"></div>
+            <div class="col"></div>
+            <div class="content col"></div>
+            <div class="row"></div>
+            <div class="col team team-1"></div>
+            <div class="content col">
+           <h1>Tina</h1>
+       <p>My name is Tinuke Olukoya, I am a Business Computing student at the of Northampton University. I started my academic career back in the day studying Hospitality management in Dublin. However, I had to take a break when nature called for me to become a mother of two boys. I later went back to work in the Hospitality department of the prestigious Naas General in the Republic of Ireland. I later moved down to the United Kingdom where I decided to live in Milton Keynes due to the growing rate of young professional. This also changed my understanding of change my career from hospitality to information technology area of business. This gave me an opportunity to work with the NHS as a flow walker and a Lorenzo professional. I was later encouraged by some of my friend to develop myself in this line of job by going back to the University to get a degree in Business Computing due to my commitment and passion. The intrinsic motivation in me gave me the strong will and passion in taking that clear step of going back to the University to get this degree.</p>
+        </div>
+        </div>

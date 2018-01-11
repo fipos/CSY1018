@@ -111,6 +111,11 @@ img{
   justify-content: center;
 }
 
+.glossary{
+  display: block;
+  width: 100%;
+}
+
 .row{
   display: flex;
   flex-direction: row;
@@ -133,6 +138,11 @@ section#team{
   background-color: #333;
 }
 
+.group{
+  flex-wrap: nowrap;
+  
+}
+
 .team{
   height: 150vh;
   text-align: center;
@@ -143,15 +153,18 @@ section#team{
 
 .team-1{
   background-image: url("../img/team-1.jpg");
+  
 }
 
 .team-2{
   background-image: url("../img/team-2.jpg");
+
 }
 
 .team-3{
   background-image: url("../img/team-3.jpg");
 }
+
 
 .team .content{
   color: #fff;
@@ -164,13 +177,19 @@ section#team{
 .content h1{
   font-size: 3em;
 }
-
+h1{
+  line-height: 1.2em;
+}
 .team:hover .content{
   visibility: visible;
 }
 
 #jobs tr th h2{
   font-weight: bolder;
+}
+h3
+{
+text-align: center;
 }
 
 /* For mobile phones: */
